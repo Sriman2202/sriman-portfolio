@@ -1,0 +1,7 @@
+# Sriman S — Portfolio
+
+> Portfolio of Sriman S, an Associate Technical Consultant and Appian developer building enterprise low-code workflow solutions.
+
+## Pages
+
+- [Home](/): About, experience, projects, certifications, and contact for Sriman S.

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sriman-portfolio.lovable.app/sitemap.xml
