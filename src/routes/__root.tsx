@@ -78,20 +78,52 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "Sriman S — Associate Technical Consultant & Appian Developer" },
-      { name: "description", content: "Portfolio of Sriman S — Associate Technical Consultant and Appian developer building enterprise workflow solutions with low-code." },
+      {
+        name: "description",
+        content:
+          "Portfolio of Sriman S — Associate Technical Consultant and Appian developer building enterprise workflow solutions with low-code.",
+      },
       { name: "author", content: "Sriman S" },
       { name: "google-site-verification", content: "MujInSKirabePdramEnR0wR6kP39udZuYN5HgQkKz6k" },
       { property: "og:site_name", content: "Sriman S Portfolio" },
-      { property: "og:title", content: "Sriman S — Associate Technical Consultant & Appian Developer" },
-      { property: "og:description", content: "Portfolio of Sriman S — Appian developer building enterprise workflow solutions and streamlining business processes through low-code." },
+      {
+        property: "og:title",
+        content: "Sriman S — Associate Technical Consultant & Appian Developer",
+      },
+      {
+        property: "og:description",
+        content:
+          "Portfolio of Sriman S — Appian developer building enterprise workflow solutions and streamlining business processes through low-code.",
+      },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Sriman S — Associate Technical Consultant & Appian Developer" },
-      { name: "twitter:description", content: "Portfolio of Sriman S — Appian developer building enterprise workflow solutions and streamlining business processes through low-code." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a67167d3-e769-4ecb-bffd-ff469b0bc7fd/id-preview-a6f4d9b4--a32d0afe-8ab8-4ad8-be0f-5b595f6321c5.lovable.app-1780758483735.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a67167d3-e769-4ecb-bffd-ff469b0bc7fd/id-preview-a6f4d9b4--a32d0afe-8ab8-4ad8-be0f-5b595f6321c5.lovable.app-1780758483735.png" },
+      {
+        name: "twitter:title",
+        content: "Sriman S — Associate Technical Consultant & Appian Developer",
+      },
+      {
+        name: "twitter:description",
+        content:
+          "Portfolio of Sriman S — Appian developer building enterprise workflow solutions and streamlining business processes through low-code.",
+      },
+      {
+        property: "og:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a67167d3-e769-4ecb-bffd-ff469b0bc7fd/id-preview-a6f4d9b4--a32d0afe-8ab8-4ad8-be0f-5b595f6321c5.lovable.app-1780758483735.png",
+      },
+      {
+        name: "twitter:image",
+        content:
+          "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/a67167d3-e769-4ecb-bffd-ff469b0bc7fd/id-preview-a6f4d9b4--a32d0afe-8ab8-4ad8-be0f-5b595f6321c5.lovable.app-1780758483735.png",
+      },
     ],
     links: [
+      { rel: "preconnect", href: "https://fonts.googleapis.com" },
+      { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
+      {
+        rel: "stylesheet",
+        href: "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap",
+      },
       {
         rel: "stylesheet",
         href: appCss,
