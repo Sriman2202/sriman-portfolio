@@ -23,7 +23,16 @@ import {
   Terminal,
 } from "lucide-react";
 import type { IconType } from "react-icons";
-import { SiMysql, SiMariadb, SiPython, SiGit, SiGithub, SiN8N, SiClaudecode } from "react-icons/si";
+import {
+  SiMysql,
+  SiMariadb,
+  SiPython,
+  SiGit,
+  SiGithub,
+  SiN8N,
+  SiClaudecode,
+  SiModelcontextprotocol,
+} from "react-icons/si";
 import { PiMicrosoftExcelLogo } from "react-icons/pi";
 
 import profile from "@/assets/profile-cutout.png";
@@ -458,6 +467,7 @@ const skills: { title: string; items: SkillItem[] }[] = [
     items: [
       { name: "Codex", icon: Terminal },
       { name: "Claude Code", icon: SiClaudecode, color: "#DA7756" },
+      { name: "MCP", icon: SiModelcontextprotocol },
     ],
   },
 ];
