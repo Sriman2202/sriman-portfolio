@@ -30,6 +30,7 @@ import {
   SiGit,
   SiGithub,
   SiN8N,
+  SiDocker,
   SiClaudecode,
   SiModelcontextprotocol,
 } from "react-icons/si";
@@ -449,6 +450,7 @@ const skills: { title: string; items: SkillItem[] }[] = [
       { name: "Git", icon: SiGit, color: "#F05032" },
       { name: "GitHub", icon: SiGithub, color: "#181717" },
       { name: "n8n", icon: SiN8N, color: "#EA4B71" },
+      { name: "Docker", icon: SiDocker, color: "#2496ED" },
     ],
   },
   {
